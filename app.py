@@ -3,7 +3,7 @@ import joblib
 
 model=joblib.load("classification_depression.pkl")
 
-labels = {'moderate': 'moderately', 'not depression': 'nots', 'severe': 'severely'}
+labels = {'moderate': 'moderately', 'not depression': 'not', 'severe': 'severely'}
 
 st.title("DEPRESSION ANALYSIS FROM TEXT DATA")
 
