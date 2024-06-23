@@ -1,5 +1,4 @@
 joblib
 scikit-learn
-classification_depression.pkl
 streamlit
 nltk
