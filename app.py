@@ -5,7 +5,7 @@ model=joblib.load("classification_depression.pkl")
 
 labels = {'moderate': 'moderately', 'not depression': 'not', 'severe': 'severely'}
 
-st.title("DEPRESSION ANALYSIS FROM TEXT DATA")
+st.title("Depression Analysis From Social Media Text")
 
 user_input=st.text_area("enter your text here")
 
